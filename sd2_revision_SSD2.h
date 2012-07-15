@@ -1,0 +1,4 @@
+#ifndef __SD2_REVISION_SSD2_H__
+#define __SD2_REVISION_SSD2_H__
+ #define SD2_REVISION_SSD2 "0001"
+#endif // __SD2_REVISION_SSD2_H__
