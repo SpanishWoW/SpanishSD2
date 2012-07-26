@@ -1,0 +1,11 @@
+Parches Metidos:
+
+- Agregado el fichero: sd2_revision_SSD2.h
+- Añadidas traducciones para: loc6_esES y loc7_esMX.
+- Añadida la carpeta sql_spanishsd2 para mis parches.
+- Traducido el Teleguy 100% al Español.
+- Reorganizacion:
+
+  - Movidos los cambios en el SD2 a ChangeLog.
+  - Agregada documentacion a README-SPANISHSD2.
+- Corregido un detalle en README

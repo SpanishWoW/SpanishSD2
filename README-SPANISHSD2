@@ -1,6 +1,77 @@
-Parches Metidos:
+@Pack SpanishWoW scripts para ScriptDev2 <https://scriptdev2.svn.sourceforge.net/>
+@version 0.1
+@revision (current)
+@copyright (c) 2012-2013 SpanishWoW
+@license GNU Public License
 
-- Agregado el fichero: sd2_revision_SSD2.h
-- Añadidas traducciones para: loc6_esES y loc7_esMX.
-- Añadida la carpeta sql_spanishsd2 para mis parches.
-- Traducido el Teleguy 100% al Español.
+Esto es un software gratuito. Usted puede redistribuirlo y / o modificar
+bajo los términos de la Licencia Pública General de GNU según lo publicado por
+la Free Software Foundation, ya sea la versión 2 de la Licencia, o
+(a su elección) cualquier versión posterior.
+
+Este programa se distribuye con la esperanza de que sea útil,
+pero SIN NINGUNA GARANTÍA, incluso sin la garantía implícita de
+O IDONEIDAD PARA UN PROPÓSITO PARTICULAR. Véase el
+Licencia Pública General GNU para más detalles.
+
+Debería haber recibido una copia de la Licencia Pública General de GNU
+junto con este programa, si no, escriba a la Free Software
+Foundation, Inc., 59 Temple Place, Suite 330, Boston, MA 02111-1307 EE.UU.
+
+¡Antencion por favor! Mi proyecto solo da soporte a compilaciones cmake
+No hay configuraciones especiales para VC.
+
+En este repositorio pordras encontrar estos script traducidos a español:
+
+- Teleguy traducido al 100% al español
+- Traduciones para loc6_esES y loc7_esMX
+
+Gracias a:
+
+- SpanishWoW: Por traducir el telguy
+- MrBytes: por regalarnos las traducciones de loc6_esES y loc7_esMX
+
+¡Señores, Señoras y amigos! !Si quereis compilar mis script con un compilador diferente de GNU C, los archivos de configuracion necesitareis crearlos vosotros¡ Yo solo uso el compilado cmake.
+Y por favor no mandarme errores de compilacion. Asi que lo que esta en mi repositorio, tiene la precision absoluto y compila y funciona en servidores de juego
+
+== ScriptDev2 README ==
+
+  Copyright (C) 2006 - 2012 ScriptDev2 <https://github.com/scriptdev2>
+  This program is free software; you can redistribute it and/or modify
+  it under the terms of the GNU General Public License as published by
+  the Free Software Foundation; either version 2 of the License, or
+  (at your option) any later version.
+
+  This program is distributed in the hope that it will be useful,
+  but WITHOUT ANY WARRANTY; without even the implied warranty of
+  MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+  GNU General Public License for more details.
+
+  You should have received a copy of the GNU General Public License
+  along with this program; if not, write to the Free Software
+  Foundation, Inc., 59 Temple Place, Suite 330, Boston, MA  02111-1307  USA
+
+== Welcome to ScriptDev2 ==
+
+ScriptDev2 is a script library, an extention of the scripting capabilities
+that comes with MaNGOS ( http://www.getmangos.com ), written in C++ and is
+compatible with Windows and Linux. SQL needed for database support both
+MySQL and PostgreSQL.
+
+This script library provides unique scripts for NPCs, gameobjects, events
+and other that need unique implementation.
+
+Once ScriptDev2 is compiled it is automatically run by MaNGOS on server
+startup.
+
+For further information on ScriptDev2, please visit our project web site
+at http://www.scriptdev2.com/
+
+Documentation on various development related topics can be found in the
+../doc/ sub directory as well as on the web site.
+
+The required SQL files for creating the database backend are included in
+the ../sql/ sub directory. If you are updating from an older ScriptDev2
+version, make sure to take a look at the SQL files provided in the
+../sql/updates/ sub directory.
+
