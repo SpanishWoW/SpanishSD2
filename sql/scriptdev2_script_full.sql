@@ -1657,7 +1657,18 @@ INSERT INTO script_texts (entry,content_default,sound,type,language,emote,commen
 (-1532111,'Welcome, Ladies and Gentlemen, to this evening\'s presentation!',9176,1,0,0,'barnes RAJ1'),
 (-1532112,'Tonight, we explore a tale of forbidden love!',9341,1,0,0,'barnes RAJ2'),
 (-1532113,'But beware, for not all love stories end happily, as you may find out. Sometimes, love pricks like a thorn.',9342,1,0,0,'barnes RAJ3'),
-(-1532114,'But don\'t take it from me, see for yourself what tragedy lies ahead when the paths of star-crossed lovers meet. And now...on with the show!',9343,1,0,0,'barnes RAJ4');
+(-1532114,'But don\'t take it from me, see for yourself what tragedy lies ahead when the paths of star-crossed lovers meet. And now...on with the show!',9343,1,0,0,'barnes RAJ4'),
+(-1532115,'Splendid, I\'m going to get the audience ready. Break a leg!',0,0,0,0,'barnes SAY_EVENT_START'),
+
+(-1532116,'You\'ve got my attention, dragon. You\'ll find I\'m not as easily scared as the villagers below.',0,1,0,0,'image of medivh SAY_MEDIVH_1'),
+(-1532117,'Your dabbling in the arcane has gone too far, Medivh. You\'ve attracted the attention of powers beyond your understanding. You must leave Karazhan at once!',0,1,0,0,'arcanagos SAY_ARCANAGOS_2'),
+(-1532118,'You dare challenge me at my own dwelling? Your arrogance is astounding, even for a dragon.',0,1,0,0,'image of medivh SAY_MEDIVH_3'),
+(-1532119,'A dark power seeks to use you, Medivh! If you stay, dire days will follow. You must hurry, we don\'t have much time!',0,1,0,0,'arcanagos SAY_ARCANAGOS_4'),
+(-1532120,'I do not know what you speak of, dragon... but I will not be bullied by this display of insolence. I\'ll leave Karazhan when it suits me!',0,1,0,0,'image of medivh SAY_MEDIVH_5'),
+(-1532121,'You leave me no alternative. I will stop you by force if you wont listen to reason.',0,1,0,0,'arcanagos SAY_ARCANAGOS_6'),
+(-1532122,'%s begins to cast a spell of great power, weaving his own essence into the magic.',0,2,0,0,'image of medivh EMOTE_CAST_SPELL'),
+(-1532123,'What have you done, wizard? This cannot be! I\'m burning from... within!',0,1,0,0,'arcanagos SAY_ARCANAGOS_7'),
+(-1532124,'He should not have angered me. I must go... recover my strength now...',0,0,0,0,'image of medivh SAY_MEDIVH_8');
 
 -- -1 533 000 NAXXRAMAS
 INSERT INTO script_texts (entry,content_default,sound,type,language,emote,comment) VALUES
@@ -4347,6 +4358,15 @@ INSERT INTO gossip_texts (entry,content_default,comment) VALUES
 INSERT INTO gossip_texts (entry,content_default,comment) VALUES
 (-3509000,'Let\'s find out.','andorov GOSSIP_ITEM_START'),
 (-3509001,'Let\'s see what you have.','andorov GOSSIP_ITEM_TRADE');
+
+-- -3 532 000 KARAZHAN
+INSERT INTO gossip_texts (entry,content_default,comment) VALUES
+(-3532000,'Teleport me to the Guardian\'s Library','berthold GOSSIP_ITEM_TELEPORT'),
+(-3532001,'I\'m not an actor.','barnes GOSSIP_ITEM_OPERA_1'),
+(-3532002,'Ok, I\'ll give it a try, then.','barnes GOSSIP_ITEM_OPERA_2'),
+(-3532003,'I\'ve never been more ready.','barnes GOSSIP_ITEM_OPERA_JULIANNE_WIPE'),
+(-3532004,'The wolf\'s going down.','barnes GOSSIP_ITEM_OPERA_WOLF_WIPE'),
+(-3532005,'What phat lewtz you have grandmother?','grandma GOSSIP_ITEM_GRANDMA');
 
 -- -3 534 000 THE BATTLE OF MT. HYJAL
 INSERT INTO gossip_texts (entry,content_default,comment) VALUES
